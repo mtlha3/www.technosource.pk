@@ -1,0 +1,17 @@
+footer {
+    background-color: #0B7BBC;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  footer span {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+  }
+  

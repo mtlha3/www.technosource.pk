@@ -1,0 +1,163 @@
+.aboutus-container {
+  font-family: Arial, sans-serif;
+  color: #333;  
+}
+
+.header-section {
+  height: 50px;
+  background-color: grey;
+  padding: 7px;
+  margin-top: 55px;
+}
+
+.typewriter-text-h {
+  color: white;
+  margin-left: 20px;
+}
+
+.typewriter-text {
+  font-size: 2em;
+  color: #0B7BBC;
+  position: relative;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-description {
+  max-width: 800px;
+  font-size: 1.1em;
+  line-height: 1.8;
+  animation: dropBounce 2s ease-out;
+}
+
+.gif {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-out;
+}
+
+.bottom-gif {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  animation: slideUp 2s ease-out;
+}
+
+.mission-section, .vision-section, .values-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.mission-description, .vision-description, .values-description {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.8;
+  animation: dropBounce 2s ease-out;
+}
+
+.values-description li {
+  list-style-type: none;
+}
+
+.pdf-section {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.pdf-header {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #0B7BBC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #0B7BBC;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pdf-btn i {
+  margin-right: 8px;
+}
+
+.pdf-btn:hover {
+  
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.pdf-header span {
+  color: black;
+  font-size: medium;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dropBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

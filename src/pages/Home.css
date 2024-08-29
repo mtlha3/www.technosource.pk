@@ -1,0 +1,78 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slider-image.active {
+    opacity: 1;
+  }
+  
+  .welcome-container {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .welcome-text {
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .slide-text-container {
+    position: relative;
+    overflow: hidden;
+    width: 50%; 
+    margin: 20px auto;
+    white-space: nowrap;
+  }
+  
+  .justify-container {
+    display: inline-block;
+    padding-left: 20px;
+    white-space: normal; 
+    width: 100%;
+    color: black;
+    text-align: justify;
+    margin-bottom: 20px;
+    
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.info-img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.info-text {
+    margin-top: 10px;
+}
