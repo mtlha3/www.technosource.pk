@@ -44,3 +44,24 @@
   background-color: white;
   margin: 5px auto;
 }
+
+/* Center align the nav links on small screens */
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
