@@ -41,3 +41,7 @@ body, html {
     height: 50px;
     padding: 7px ;
   }
+
+  .form-group input{
+    margin-bottom: 20px;
+  }
